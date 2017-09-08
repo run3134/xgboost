@@ -1,0 +1,42 @@
+booster[0]:
+0:[odor=pungent] yes=2,no=1
+	1:[stalk-root=cup] yes=4,no=3
+		3:[stalk-root=missing] yes=8,no=7
+			7:[odor=anise] yes=14,no=13
+				13:[odor=creosote] yes=20,no=19
+					19:leaf=1.99735
+					20:leaf=-1.8
+				14:leaf=-1.80952
+			8:leaf=-1.95062
+		4:[bruises?=no] yes=10,no=9
+			9:leaf=1.77778
+			10:leaf=-1.98104
+	2:[spore-print-color=orange] yes=6,no=5
+		5:[stalk-surface-below-ring=silky] yes=12,no=11
+			11:[cap-surface=scaly] yes=16,no=15
+				15:leaf=-1.99117
+				16:leaf=1
+			12:[gill-size=narrow] yes=18,no=17
+				17:leaf=1.77143
+				18:leaf=-1.5
+		6:leaf=1.85965
+booster[1]:
+0:[odor=pungent] yes=2,no=1
+	1:[bruises?=no] yes=4,no=3
+		3:leaf=1.13207
+		4:[odor=musty] yes=8,no=7
+			7:[odor=spicy] yes=12,no=11
+				11:leaf=-1.12641
+				12:leaf=1.08392
+			8:leaf=1.09118
+	2:[spore-print-color=orange] yes=6,no=5
+		5:[stalk-surface-below-ring=silky] yes=10,no=9
+			9:[gill-size=narrow] yes=14,no=13
+				13:[bruises?=no] yes=18,no=17
+					17:leaf=-1.06692
+					18:leaf=2.08
+				14:leaf=-1.13236
+			10:[gill-size=narrow] yes=16,no=15
+				15:leaf=0.928896
+				16:leaf=-0.784694
+		6:leaf=0.994744

@@ -314,6 +314,7 @@ class LearnerImpl : public Learner {
     cfg_["num_class"] = common::ToString(mparam.num_class);
     cfg_["num_feature"] = common::ToString(mparam.num_feature);
     obj_->Configure(cfg_.begin(), cfg_.end());
+    gbm_->Configure(cfg_.begin(), cfg_.end());
   }
 
   // rabit save model to rabit checkpoint

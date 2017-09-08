@@ -13,6 +13,7 @@
 #include <xgboost/data.h>
 #include <xgboost/logging.h>
 #include <dmlc/timer.h>
+#include "string"
 #include <iomanip>
 #include <ctime>
 #include <string>
@@ -374,5 +375,6 @@ int CLIRunTask(int argc, char *argv[]) {
 }  // namespace xgboost
 
 int main(int argc, char *argv[]) {
+	std::cout<<"hello this is my main" << std::endl;
   return xgboost::CLIRunTask(argc, argv);
 }
