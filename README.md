@@ -19,6 +19,8 @@ It implements machine learning algorithms under the [Gradient Boosting](https://
 XGBoost provides a parallel tree boosting (also known as GBDT, GBM) that solve many data science problems in a fast and accurate way.
 The same code runs on major distributed environment (Hadoop, SGE, MPI) and can solve problems beyond billions of examples.
 
+FOR LEANING
+
 What's New
 ----------
 * [XGBoost GPU support with fast histogram algorithm](https://github.com/dmlc/xgboost/tree/master/plugin/updater_gpu)
